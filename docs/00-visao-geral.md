@@ -19,7 +19,7 @@ Neste curso, a unidade principal não é "o código". A unidade principal é o w
 - Qual objeto disparou a execução?
 - Quais inputs foram usados?
 - Qual sistema externo foi chamado?
-- O resultado é idempotente?
+- O resultado é idempotente? (ou seja, uma ação que pode rodar mais de uma vez e ainda assim produzir o mesmo resultado final, sem duplicar efeito)
 - Se falhar, o workflow deve tentar de novo?
 - Se não tentar de novo, como alguém vai encontrar e corrigir o caso?
 
