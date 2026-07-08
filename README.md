@@ -20,10 +20,11 @@ Este curso assume que o time já criou Custom Code Actions antes. O objetivo nã
 4. [Outputs e encadeamento](docs/03-outputs-e-encadeamento.md)
 5. [Erros, logs e retries](docs/04-erros-logs-retries.md)
 6. [Limites de API e rate limit](docs/05-limites-api-rate-limit.md)
-7. [Workflows em alta escala](docs/06-workflows-em-alta-escala.md)
-8. [Padrões de arquitetura](docs/07-padroes-de-arquitetura.md)
-9. [Anti-patterns](docs/08-anti-patterns.md)
-10. [Checklists](docs/09-checklists.md)
+7. [Webhook e fila externa](docs/05-1-webhook-fila-externa.md)
+8. [Workflows em alta escala](docs/06-workflows-em-alta-escala.md)
+9. [Padrões de arquitetura](docs/07-padroes-de-arquitetura.md)
+10. [Anti-patterns](docs/08-anti-patterns.md)
+11. [Checklists](docs/09-checklists.md)
 
 ## Exemplos
 
@@ -41,4 +42,3 @@ A pasta [templates](templates/) contém modelos para:
 ## Referências
 
 Veja [links oficiais](references/links-oficiais.md) e [glossário](references/glossary.md).
-

@@ -33,6 +33,8 @@ Use quando:
 
 Se o volume for grande e a resposta não precisa voltar para o workflow, prefira webhook + fila externa.
 
+Veja o módulo [05.1 - Webhook e fila externa](05-1-webhook-fila-externa.md) para o desenho completo.
+
 ## Middleware externo
 
 Para limites críticos, use um serviço intermediário:
@@ -42,4 +44,3 @@ Para limites críticos, use um serviço intermediário:
 - chama a API externa;
 - grava resultado em banco/log;
 - opcionalmente atualiza o HubSpot depois.
-
