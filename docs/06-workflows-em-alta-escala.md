@@ -1,6 +1,7 @@
 # 06 - Workflows em alta escala
 
 Enrollment em massa é uma das maiores fontes de problemas com Custom Code Actions.
+IMPORTANTE: NUNCA use workflows para fazer backfill histórico, rode seu script localmente nesses casos
 
 ## Antes de ligar o workflow
 
