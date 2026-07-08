@@ -22,7 +22,9 @@ Alternativa: `throw` apenas para erro recuperável e idempotente; outputs para e
 
 Problema: ninguém sabe onde token é usado.
 
-Alternativa: nomes descritivos, por exemplo `HUBSPOT_PRIVATE_APP_TOKEN_CRM_WRITE` ou `ZEROBOUNCE_API_KEY_PROD`.
+Alternativa: nomes descritivos por sistema, objeto, finalidade e ambiente. Em vez de `HUBSPOT_TOKEN`, use algo como `HUBSPOT_NEGOCIOS_ESTAGIO_READ`, `HUBSPOT_CONTATOS_DEDUP_WRITE` ou `ZEROBOUNCE_EMAIL_VALIDATION_PROD`.
+
+Também é válido usar mais de um secret no mesmo código quando isso deixa os acessos mais claros. Só lembre que a soma dos valores dos secrets usados por uma ação não deve passar de 1.000 caracteres.
 
 ## Usar Math.random para código único
 
@@ -35,4 +37,3 @@ Alternativa: biblioteca segura, chave externa, UUID ou registro mãe.
 Problema: risco de expor dado sensível.
 
 Alternativa: logar IDs, etapa, status e correlation ID.
-
