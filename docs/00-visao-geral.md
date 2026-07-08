@@ -25,5 +25,5 @@ Neste curso, a unidade principal não é "o código". A unidade principal é o w
 
 ## Quando não usar Custom Code Action
 
-Não use Custom Code Action para processar lotes grandes, sincronização pesada ou jobs longos. Se a ação não precisa retornar um output imediato para o workflow, considere webhook + fila externa.
+Não use Custom Code Action para processar lotes grandes, sincronização pesada ou jobs longos.
 
